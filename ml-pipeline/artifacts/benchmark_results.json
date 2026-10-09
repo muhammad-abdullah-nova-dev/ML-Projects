@@ -1,0 +1,63 @@
+{
+  "best_model": "logistic_regression",
+  "best_roc_auc": 0.8389,
+  "feature_names": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "age",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "DebtRatio",
+    "MonthlyIncome",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberOfTimes90DaysLate",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "NumberOfDependents"
+  ],
+  "n_train_samples": 600,
+  "n_test_samples": 200,
+  "positive_rate_test": 0.115,
+  "timestamp": "2026-10-09T03:50:01.403161+00:00",
+  "maintainer": "M. Abdullah",
+  "benchmark": {
+    "naive_baseline": {
+      "roc_auc": 0.5,
+      "pr_auc": 0.115,
+      "f1_macro": 0.4695,
+      "precision": 0.0,
+      "recall": 0.0,
+      "accuracy": 0.885,
+      "brier_score": 0.1018,
+      "fit_time_ms": 1.43
+    },
+    "logistic_regression": {
+      "roc_auc": 0.8389,
+      "pr_auc": 0.4171,
+      "f1_macro": 0.7003,
+      "precision": 0.375,
+      "recall": 0.7826,
+      "accuracy": 0.825,
+      "brier_score": 0.1645,
+      "fit_time_ms": 346.16
+    },
+    "random_forest": {
+      "roc_auc": 0.8268,
+      "pr_auc": 0.3283,
+      "f1_macro": 0.6482,
+      "precision": 0.4,
+      "recall": 0.3478,
+      "accuracy": 0.865,
+      "brier_score": 0.1243,
+      "fit_time_ms": 3798.98
+    },
+    "gradient_boosting": {
+      "roc_auc": 0.6758,
+      "pr_auc": 0.2279,
+      "f1_macro": 0.6331,
+      "precision": 0.3889,
+      "recall": 0.3043,
+      "accuracy": 0.865,
+      "brier_score": 0.1167,
+      "fit_time_ms": 44704.59
+    }
+  }
+}

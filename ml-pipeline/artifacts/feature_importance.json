@@ -1,0 +1,62 @@
+{
+  "scoring": "roc_auc",
+  "method": "permutation_importance",
+  "n_repeats": 5,
+  "ranked_features": [
+    {
+      "feature": "NumberOfTimes90DaysLate",
+      "importance_mean": 0.09457,
+      "importance_std": 0.00474
+    },
+    {
+      "feature": "NumberOfTime30-59DaysPastDueNotWorse",
+      "importance_mean": 0.06779,
+      "importance_std": 0.01313
+    },
+    {
+      "feature": "NumberOfTime60-89DaysPastDueNotWorse",
+      "importance_mean": 0.04045,
+      "importance_std": 0.00703
+    },
+    {
+      "feature": "age",
+      "importance_mean": 0.03391,
+      "importance_std": 0.01791
+    },
+    {
+      "feature": "RevolvingUtilizationOfUnsecuredLines",
+      "importance_mean": 0.01898,
+      "importance_std": 0.00393
+    },
+    {
+      "feature": "DebtRatio",
+      "importance_mean": 0.0167,
+      "importance_std": 0.00672
+    },
+    {
+      "feature": "MonthlyIncome",
+      "importance_mean": 0.0068,
+      "importance_std": 0.00985
+    },
+    {
+      "feature": "NumberOfDependents",
+      "importance_mean": 0.00225,
+      "importance_std": 0.00109
+    },
+    {
+      "feature": "NumberRealEstateLoansOrLines",
+      "importance_mean": -0.00028,
+      "importance_std": 0.00109
+    },
+    {
+      "feature": "NumberOfOpenCreditLinesAndLoans",
+      "importance_mean": -0.0017,
+      "importance_std": 0.00257
+    }
+  ],
+  "top_drivers": [
+    "NumberOfTimes90DaysLate",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTime60-89DaysPastDueNotWorse"
+  ]
+}
