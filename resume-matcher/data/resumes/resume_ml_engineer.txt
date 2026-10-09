@@ -1,0 +1,5 @@
+M. Abdullah - Machine Learning Engineer
+Experienced ML Engineer specializing in Python, PyTorch, Transformers, Scikit-learn, and FastAPI.
+Proven track record designing scalable MLOps pipelines, model experiment tracking with MLflow,
+and production containerized serving using Docker and Kubernetes.
+Built statistical data drift detection and automated CI/CD validation suites.

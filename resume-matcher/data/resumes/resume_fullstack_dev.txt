@@ -1,0 +1,4 @@
+Alex Morgan - Full Stack Developer
+Senior Full Stack Web Developer with 5+ years of experience in JavaScript, TypeScript, React, and Node.js.
+Proficient with relational databases, PostgreSQL, REST APIs, HTML5, CSS3, and GraphQL.
+Experienced building responsive user interfaces and cloud serverless architectures on AWS.

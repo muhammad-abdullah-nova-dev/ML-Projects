@@ -1,0 +1,2 @@
+We are looking for a Software Engineer with experience in Python, machine learning, and cloud infrastructure.
+Strong background in API development with FastAPI, containerization with Docker, and automated CI/CD pipelines.

@@ -1,0 +1,4 @@
+Taylor Reed - Business & Data Analyst
+Data Analyst skilled in SQL query optimization, Tableau dashboards, Power BI, and Microsoft Excel.
+Specialized in exploratory data analysis, business intelligence, financial reporting, and KPI tracking.
+Experienced working with cross-functional teams to translate raw tabular database tables into actionable executive insights.
